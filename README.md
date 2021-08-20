@@ -8,7 +8,7 @@
 
 - 특정 container 뷰의 transition animation 을 만드는 함수이다.
 
-animation 효과를 주기 위해서 파라미터 options 에 해당하는 `UIView.AnimationOptions` 옵션을 설정해주며 된다.
+animation 효과를 주기 위해서 파라미터 options 에 해당하는 `UIView.AnimationOptions` 옵션을 설정해주면 된다.
 
 ### 준비
 
@@ -56,7 +56,8 @@ class ViewController: UIViewController {
 
 ```
 
-### `UIView.AnimationOptions` constants
+### UIView.AnimationOptions constants. 
+transition animation 형태에 직접적인 옵션들을 실습해보았다.
 
 - [transitionCrossDissolve](https://developer.apple.com/documentation/uikit/uiview/animationoptions/1622499-transitioncrossdissolve)
 
